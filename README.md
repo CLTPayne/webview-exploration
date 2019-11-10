@@ -8,6 +8,26 @@ Investigation of WebView technology and best practices for hybrid app developmen
 2. Understand the pros and cons of a hybrid WebView approach for modern app development
 3. Work towards a hybrid app project that can be used as a simplified environment for exploring ideas and technologies.
 
+### Quick Start:
+
+#### How to start this iOS project:
+
+-   Fork this project in the GitHub UI
+-   Clone your forked copy `git clone https://github.com/[YOUR-USERNAME]/webview-exploration`
+-   Open the project in Xcode (v11.2)
+-   Click ▶️ to build and run the current scheme
+-   You can edit the URL loaded in the WebView via the variable set in the `ViewController.swift` file
+
+### Investigation
+
+#### Iteration 1 - Web Browser in Native App:
+
+1. Set up a single view iOS app and load in a live webpage in a WebView using the WebKit `WKWebView`.
+2. Include a NavigationController with a refresh button to reload the web content.
+3. Screen header displays website title.
+
+First iteration in Xcode simulator: ![URL loaded in WebView](./readme-images/Basic_iOS_WebView.png)
+
 ### Why even build a mobile app:
 
 1. Because your competition has one.
@@ -56,7 +76,7 @@ Handling navigation / linking can be odd. If you're not careful with your URLs u
 4. You are not limited to particular platform choices, so can react more quickly to changes or problems. You can even shift platforms when issues arise. If you’re having a problem with a piece of native code, you might be able to address it temporarily by switching to a WebView.
 5. Flexability - you don’t have to commit to using Web content everywhere. As I mentioned for smaller WebViews, if something would be terrible as a Web interface, just build that page partially or entirely as a native screen.
 
-#### Cons:
+#### Cons:
 
 1. Slower than native apps
 2. ** You’re dependent on a third-party platform to deploy the app’s wrapper ** Is this the case? What platform? Is this the native store?
@@ -65,7 +85,7 @@ Handling navigation / linking can be odd. If you're not careful with your URLs u
 
 ### Web Apps:
 
-#### Pros:
+#### Pros:
 
 1. Single code base
 2. Updates don't have to go through the app store, so use doesn't have to manage updates themselves
