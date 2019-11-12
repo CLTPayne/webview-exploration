@@ -111,3 +111,6 @@ Handling navigation / linking can be odd. If you're not careful with your URLs u
 
 -   https://github.com/turbolinks/turbolinks-ios - used by Basecamp
 -   Basecamp's approach is web first thanks to their hybrid app stack. Then by default, we have a view controller that can display any url in Basecamp 3, so any new urls will just work in the app. We can iterate and experiment on the web, ship immediately on all platforms, and later make it native if feel we can improve the experience
+-   Audio player in Swift - uses AVAudioPlayer framework from [AV Foundation](https://developer.apple.com/av-foundation/) - https://codewithchris.com/avaudioplayer-tutorial/
+    -   Background audio - https://developer.apple.com/documentation/avfoundation/media_assets_playback_and_editing/creating_a_basic_video_player_ios_and_tvos/enabling_background_audio
+    -   Controls for background audio - https://developer.apple.com/documentation/avfoundation/media_assets_playback_and_editing/creating_a_basic_video_player_ios_and_tvos/controlling_background_audio
