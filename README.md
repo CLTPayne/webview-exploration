@@ -48,12 +48,6 @@ _Router_: most native navigation will be handled via URL. The router will decide
 
 _Bridge_: an umbrella term for all the various parts of the app involved in native→web (or web→native) communication. E.g. this can be a javascript file that is embedded in the app and injected into the web view using `WKUserScript`. It would then give the native code or 'wrapper' an API for communicating with the web view without needing to directly query the DOM or do complex JS. Then using a `WKScriptMessageHandler`, we can respond to messages sent from the web view through the bridge.
 
-_UIKit_: Framework in iOS for the basic behaviour of an app. Enables you to implement the interface, the event handling infrastructure for Multi-Touch and other types of input in the app, and the _main run loop_ needed to manage interactions between the user, the system and the app. UIKit manages your app's interactions with the system and provides classes to manage the app's data and resources.
-
-It's the core objects needed to build an app for iOS - or a framework. The objects are used for displaying content on screen, interact with the content and manage interactions with the system.
-
-_View Controllers_: An aspect of the UIKit framework that help you manage the views and structure your app. Views themselves help you display content on screen and facilitate user interaction.
-
 ### Native Apps:
 
 #### Pros:
