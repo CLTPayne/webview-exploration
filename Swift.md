@@ -31,3 +31,5 @@ func someFunction(_ firstParameterName: Int, secondParameterName: Int) {
 }
 someFunction(1, secondParameterName: 2)
 ```
+
+_Use of an Underscore_: Generally an `_` means "ignore this". Different variations explained [here](https://stackoverflow.com/questions/39627106/why-do-i-need-underscores-in-swift)
